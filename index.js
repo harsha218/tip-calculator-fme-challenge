@@ -27,7 +27,7 @@ const choiceChange = (value) => {
 
 const resetCalculator = () => {
     document.getElementById('costInput').value = '';
-    document.getElementById('peopleInput').value = '1   '
+    document.getElementById('peopleInput').value = ''
     document.getElementById('tipInput').value = '';
     globalTip = 0;
     return true;

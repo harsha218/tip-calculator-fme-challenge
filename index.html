@@ -32,7 +32,7 @@
 				</div>
 				<div class="inputDiv">
 					<img src="./images/icon-dollar.svg" alt="">
-					<input id='costInput' onkeypress="return isNumberKey(event)" />
+					<input id='costInput' placeholder="0" type="text" onkeypress="return isNumberKey(event)" />
 				</div>
 				<div class="mt-4">
 					Select Tip %
@@ -44,7 +44,7 @@
 					<div class='tip' id='tip25' onclick="choiceChange(25)">25%</div>
 					<div class='tip' id='tip50' onclick="choiceChange(50)">50%</div>
 					<div class='customTip inputDiv'>
-						<input id='tipInput' placeholder="Custom" onkeypress="return isNumberKey(event)" />
+						<input id='tipInput' type="text" placeholder="Custom" onkeypress="return isNumberKey(event)" />
 					</div>
 				</div>
 
@@ -53,7 +53,7 @@
 				</div>
 				<div class="inputDiv mb-3">
 					<img src="./images/icon-person.svg" alt="">
-					<input id='peopleInput' min="1" onkeypress="return isNumberKey(event)" value="1" />
+					<input id='peopleInput' placeholder="0" type="text" onkeypress="return isNumberKey(event)" />
 				</div>
 			</div>
 			<div class="outputSide">
